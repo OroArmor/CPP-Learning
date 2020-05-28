@@ -3,6 +3,7 @@ class Rectangle{
 public:
 	Rectangle(int, int);
 	int area();	
+	int perimeter();
 };
 
 

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "myclass.h"
-#include "print.h"
+#include "learning/Rectangle.h"
+#include "common/print.h"
 
 int main() {
 	std::cout << "Hello, World!" << std::endl;
@@ -12,6 +12,9 @@ int main() {
 
 	print("Area: ");
 	println(std::to_string(rect.area()));
+
+	print("Perimeter: ");
+	println(std::to_string(rect.perimeter()));
 
 	return 0;
 }
